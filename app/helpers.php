@@ -7,7 +7,7 @@ if(! function_exists('page_title'))
 {
     function page_title($title)
     {
-        return $title.' | Laracarte - List of artisans';
+        return $title.' | '.config('app.name').' - List of artisans';
     }
 }
 
